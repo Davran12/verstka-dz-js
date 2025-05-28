@@ -1,0 +1,166 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  height: 100%;
+}
+
+.main-banner {
+  background: url("../image/background-hero.png") center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0);
+  z-index: 100;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.phone {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.btn-consult {
+  background-color: #5a8dff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-consult:hover {
+  background-color: #3d72e6;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 100px;
+  left: 60px;
+  max-width: 700px;
+}
+
+.banner-content h1 {
+  font-size: 40px;
+  line-height: 1.4;
+}
+
+.banner-content p {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.btn-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #5a8dff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.popup.active {
+  display: flex;
+}
+
+.popup-content {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 320px;
+  text-align: center;
+  position: relative;
+  color: #333;
+}
+
+.popup-content input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.popup-content button {
+  padding: 10px 18px;
+  background-color: #5a8dff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 95%;
+}
+
+.close-popup {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.popup-content p {
+  font-size: 12px;
+  color: #828a99;
+}
+.popup-p {
+  font-size: 14px;
+  text-align: left;
+}
+
+.popup-content h2 {
+  font-size: 40px;
+  text-align: left;
+  margin: 0;
+}
