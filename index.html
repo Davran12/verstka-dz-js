@@ -9,10 +9,47 @@
   <body>
     <div class="main-banner">
       <header class="header">
+        <div class="burger" id="burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+          <div class="close-mobile" id="closeMobile">&times;</div>
+          <a href="#">О компании</a>
+
+          <h4>Контрактное производство</h4>
+          <a href="#">Автомобильная химия</a>
+          <a href="#">Бытовая химия</a>
+          <a href="#">Дезинфицирующие средства</a>
+          <a href="#">Пищевые аэрозоли</a>
+          <a href="#">Косметическая продукция</a>
+          <a href="#">Краски аэрозольные</a>
+
+          <h4>Собственные марки</h4>
+          <a href="#">Автохимия AG-Tech</a>
+          <a href="#">Автохимия AP</a>
+
+          <a href="#">Новости</a>
+          <a href="#">Контакты</a>
+
+          <div class="contact">
+            <p><strong>+7 (499) 686-10-14</strong></p>
+            <p>г. Москва, Холодильный пер. 4к1с8</p>
+            <p>📧 a.dragunov@tdaliance.ru</p>
+            <p>🔗 ВКонтакте | Telegram</p>
+          </div>
+        </div>
+
         <div class="logo">
           <img src="./image/logo.svg" alt="Alliance Production Logo" />
         </div>
-
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <nav class="nav">
           <a href="#">О компании</a>
           <a href="#">Контрактное производство</a>
@@ -20,7 +57,6 @@
           <a href="#">Новости</a>
           <a href="#">Контакты</a>
         </nav>
-
         <div class="header-right">
           <img src="./image/phone.svg" alt="" />
           <a href="tel:+74996861014" class="phone">+7 (499) 686-10-14</a>
@@ -45,6 +81,41 @@
       </div>
     </div>
 
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-header">
+        <img src="./image/logo.svg" alt="Logo" class="mobile-logo" />
+        <span class="close-btn" id="closeMobile">&times;</span>
+      </div>
+      <nav class="mobile-nav">
+        <a href="#">о компании</a>
+        <div>
+          <strong>Контрактное производство</strong>
+          <a href="#">Автомобильная химия</a>
+          <a href="#">Бытовая химия</a>
+          <a href="#">Дезинфицирующие средства</a>
+          <a href="#">Пищевые аэрозоли</a>
+          <a href="#">Косметическая продукция</a>
+          <a href="#">Краски аэрозольные</a>
+        </div>
+        <div>
+          <strong>Собственные марки</strong>
+          <a href="#">Автохимия AG-Tech</a>
+          <a href="#">Автохимия AP</a>
+        </div>
+        <a href="#">Новости</a>
+        <a href="#">Контакты</a>
+        <div class="mobile-contacts">
+          <p><strong>+7 (499) 686-10-14</strong></p>
+          <p>г. Москва, Холодильный пер. 4к1с8</p>
+          <p>📧 a.dragunov@tdaliance.ru</p>
+          <div class="social-icons">
+            <a href="#"><img src="./image/vk.svg" alt="VK" /></a>
+            <a href="#"><img src="./image/inst.svg" alt="Instagram" /></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
     <div class="popup" id="popup">
       <div class="popup-content">
         <div class="close-popup" id="closePopup">&times;</div>
@@ -66,6 +137,6 @@
       </div>
     </div>
 
-    <script src="./script.js"></script>
+    <script defer src="./script.js"></script>
   </body>
 </html>
