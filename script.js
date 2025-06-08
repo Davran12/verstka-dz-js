@@ -32,4 +32,10 @@ document.addEventListener("DOMContentLoaded", function () {
   prevBtn.addEventListener("click", () => {
     wrapper.scrollBy({left: -cardWidth, behavior: "smooth"})
   })
+  const cards = document.querySelectorAll(".card")
+  cards.forEach((card) => {
+    card.addEventListener("click", () => {
+      console.log("Вы нажали на карточку товара!")
+    })
+  })
 })

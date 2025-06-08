@@ -604,3 +604,66 @@ body {
     display: block;
   }
 }
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #292d33;
+  margin-top: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  padding: 32px;
+  height: 360px;
+  overflow: hidden;
+  border: 1px solid transparent;
+  transition: border 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 16px;
+  color: #2e2e38;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.card p {
+  font-size: 16px;
+  color: #52525b;
+  line-height: 1.4;
+  margin: 0;
+  max-width: 280px;
+}
+
+.card img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+  width: 280px;
+  height: auto;
+}
+
+.card:hover {
+  border: 1px solid #5c8ee5;
+}
+
+.card:hover h3 {
+  color: #5c8ee5;
+}
